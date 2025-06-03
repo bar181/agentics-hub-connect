@@ -1,4 +1,3 @@
-
 import { Calendar, MapPin, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -17,11 +16,11 @@ export const UpcomingEvents = () => {
     },
     {
       id: 2,
-      title: "Machine Learning Workshop",
-      date: "April 22, 2024",
+      title: "Friday Live Coding",
+      date: "Friday, 12:00 PM",
       location: "Online",
-      attendees: 200,
-      description: "Hands-on workshop covering the latest ML techniques and practical applications.",
+      attendees: 300,
+      description: "This week Ruv will cover Roo code and advanced analytics, Brad will create the starting scaffolding with Lovable, Rob will host, and Nick will provide amazing member initiatives.",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=250&fit=crop"
     },
     {
