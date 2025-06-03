@@ -38,12 +38,12 @@ export const About = () => {
             </div>
             
             <div className="mt-8 grid grid-cols-2 gap-4">
-              <div className="text-center p-4 bg-blue-50 rounded-lg">
-                <div className="text-2xl font-bold text-blue-600">50+</div>
+              <div className="text-center p-4 bg-orange-50 rounded-lg">
+                <div className="text-2xl font-bold text-orange-600">50+</div>
                 <div className="text-sm text-gray-600">Global Events</div>
               </div>
-              <div className="text-center p-4 bg-purple-50 rounded-lg">
-                <div className="text-2xl font-bold text-purple-600">10K+</div>
+              <div className="text-center p-4 bg-red-50 rounded-lg">
+                <div className="text-2xl font-bold text-red-600">10K+</div>
                 <div className="text-sm text-gray-600">Community Members</div>
               </div>
             </div>
