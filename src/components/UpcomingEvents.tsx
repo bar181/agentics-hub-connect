@@ -7,12 +7,12 @@ export const UpcomingEvents = () => {
   const events = [
     {
       id: 1,
-      title: "AI Ethics Summit 2024",
-      date: "March 15-17, 2024",
-      location: "San Francisco, CA",
-      attendees: 500,
-      description: "Join leading experts in discussing the ethical implications of AI development and deployment.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=250&fit=crop",
+      title: "Toronto AI Meetup",
+      date: "June 3, 2024 - 6:30 PM",
+      location: "25 John Street, Toronto, ON",
+      attendees: 45,
+      description: "Join our Toronto chapter for an evening of AI discussions, networking, and insights from local experts.",
+      image: "https://images.unsplash.com/photo-1517935706615-2717063c2225?w=400&h=250&fit=crop",
       featured: true
     },
     {
@@ -58,7 +58,7 @@ export const UpcomingEvents = () => {
                   className="w-full h-48 object-cover"
                 />
                 {event.featured && (
-                  <div className="absolute top-4 left-4 bg-blue-600 text-white px-2 py-1 rounded text-sm font-medium">
+                  <div className="absolute top-4 left-4 bg-orange-600 text-white px-2 py-1 rounded text-sm font-medium">
                     Featured Event
                   </div>
                 )}
@@ -85,7 +85,7 @@ export const UpcomingEvents = () => {
                   </div>
                 </div>
                 
-                <Button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
+                <Button className="w-full bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700">
                   Register Now
                 </Button>
               </CardContent>
